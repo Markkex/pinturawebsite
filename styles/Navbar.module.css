@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(73, 113, 201);
+}
+
+.alignItems {
+  display: flex;
+  align-items: center;
+}
+
+.paddingLeft {
+  padding-left: 10px;
+}
+
+.paddingRight {
+  padding-right: 10px;
+}
