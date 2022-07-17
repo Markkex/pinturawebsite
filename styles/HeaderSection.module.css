@@ -1,0 +1,27 @@
+.headerSection {
+    height: 85vh;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.5)
+      ), url("../public/professional-house-painters.jpeg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.bgText {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-80%, -50%);
+    z-index: 2;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+  }

@@ -2,10 +2,11 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 import Navbar from "./components/Navbar";
+import HeaderSection from "./components/HeaderSection";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>REVESTICOR - Revendedor Cin</title>
         <meta name="description" content="" />
@@ -17,7 +18,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <hr />
+      <HeaderSection />
     </div>
   );
 }
